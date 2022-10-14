@@ -1,0 +1,113 @@
+/**********************TAG SELECTORS******************/
+h1{
+    margin: 50px 0 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    color: #66BFBF;
+}
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #11999E;
+}
+p{
+    line-height: 2;
+    font-weight: bolder;
+}
+hr{
+    width: 7%;
+    border-style: dotted none none none;
+    color: grey;
+    margin: 70px auto;
+    border-width: 5px 0 0;
+
+}
+/**********************CLASS SELECTORS******************/
+.top-container{
+    background-color: #EAF6F6;
+    border: 10px;
+    padding-top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.cloud{
+    position: absolute;
+}
+.Skill{
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align: left;
+}
+
+.skill-img{
+    height: 25%;
+    width: 25%;
+}
+.contact-div{
+    background-color: #66BFBF;
+    height: 150px;
+    padding-top: 60px;
+    margin-top: 3%;
+}
+.social{
+    color: #11999E;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.social:hover{
+    color: white;
+}
+/**********************ID SELECTORS******************/
+
+#top-cloud{
+    top: 5%;
+    right: 30%;
+}
+#bottom-cloud{
+    left: 15%;
+    bottom: 65%;
+}
+#top-desc{
+    font-weight: normal;
+    margin-top: 0;
+}
+#profile-photo{
+    height: 25%;
+    width: 25%;
+}
+#comp-prog-img{
+    float: left;
+    margin-right: 30px;
+}
+#teaching-img{
+    float: right;
+    margin-left: 30px;
+}
+#footer{
+    color: #EAF6F6;
+    margin-top: 50px;
+}
+#submit-btn{
+    font-size: 25px;
+    border-radius: 7px;
+    border: 2px solid #11999E;
+    transition-duration: 0.4s;
+    padding: 7px;
+}
+#submit-btn:hover{
+    background-color: #66BFBF;
+    color: white;
+}
